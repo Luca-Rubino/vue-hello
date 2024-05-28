@@ -6,7 +6,8 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        message: 'Buongiorno mondo'
+        message: `Buongiorno mondo`,
+        src: `img/favicon.png`
       }
     }
   }).mount('#app')
