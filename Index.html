@@ -14,7 +14,15 @@
 <body>
     <section id="app">
         <h1>{{ message }}</h1>
-        <img :src="" alt="">
+        <img :src="imageUrl" :alt="descrizione">
+        <div>
+            <label for="titolo">Titolo utente:&#160;</label>
+            <input type="text" name="titolo" :value="message" @input="titolo" id="h1TextUser">
+        </div>
+        <div>
+            <label for="immagine">Url immagine utente:&#160;</label>
+            <input type="textarea" name="immagine" :value="imageUrl" @input="immagine" id="imageInsertUser">
+        </div>
     </section>
     <!-- my script -->
     <script src="js/script.js"></script>
