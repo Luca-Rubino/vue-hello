@@ -16,8 +16,11 @@ Bonus Special:
 
 Svolgimento:
 
-- Inseriamo in html il collegamento` <script> a Vue js`
+- Inseriamo in html il collegamento `<script> a Vue js`
 - Copiamo il global build di vue nel nostro file js
-- in html al tag desiderato inseriamo l'id app
-- nel tag h1 inserire la proprietà "message" tra le graffe (detto tra i moustache)
-
+- In html al tag desiderato inseriamo l'id app
+- Nel tag h1 inserire la proprietà v-model "message" tra le graffe (detto tra i moustache)
+- Nel tag image inserire le proprieta v-model in src per vedere l'immagine nell'oggetto
+- Inserire in html i tag input di tipo testo per modificare l'immagine e h1 nel dom
+- Creare nella parte methods le funzioni per riscrivere il testo e sostituire l'immagine 
+- Nei tag di input inserire le proprieta v-model e @input per sostituire il testo e l'immagine
