@@ -2,3 +2,14 @@ body{
     background-color: darkcyan;
     color: white;
 }
+
+div{
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+image{
+    max-width: 500px;
+}
