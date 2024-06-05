@@ -13,3 +13,10 @@ div{
 image{
     max-width: 500px;
 }
+
+.first-text-image{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    text-align: center;
+}
