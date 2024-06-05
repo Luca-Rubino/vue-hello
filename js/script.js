@@ -7,7 +7,16 @@ const { createApp } = Vue
     data() {
       return {
         message: `Buongiorno mondo`,
-        src: `img/favicon.png`
+        imageUrl: `img/favicon.png`,
+        descrizione: `favicon-Boolean`
       }
-    }
+    },
+    methods: {
+      titolo: (function (e) {
+        this.message = e.target.value
+      }),
+      immagine: (function (e) {
+        this.imageUrl = e.target.value
+      }),
+    },
   }).mount('#app')
